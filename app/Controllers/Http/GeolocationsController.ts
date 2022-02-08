@@ -23,7 +23,7 @@ export default class GeolocationsController {
     const payload = await request.validate({ schema: requestSchema });
 
     let address = payload.address;
-    ("200 W 53rd St, New York, NY 10019, United States");
+
     let email = payload.email;
 
     let base_url = Env.get("LOCATION_BASE_URL");
