@@ -56,7 +56,7 @@ export default class GeolocationsController {
         });
 
         return response.ok({
-          message: "Geolocation found",
+          message: "Geolocation found and sent to email",
           data: {
             latitude: latitude,
             longitude: longitude,
