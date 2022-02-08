@@ -42,7 +42,7 @@ export default class GeolocationsController {
         let latitude = res.data.features[0].properties.lon;
         let longitude = res.data.features[0].properties.lat;
 
-        await Mail.send((message) => {
+        await Mail.sendLater((message) => {
           message
             .from("info@cruitin.com")
             .to(email)

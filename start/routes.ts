@@ -25,4 +25,4 @@ Route.get('/', async () => {
 })
 
 
-Route.post('/search-address', 'GeolocationController.index')
+Route.post('/search-address', 'GeolocationsController.index')
