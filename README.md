@@ -12,7 +12,7 @@
 
 Application will be running on : http://127.0.0.1:3333
 
-Live url: https://bos-geolocation-api.herokuapp.com/search-address
+Live BaseUrl: https://bos-geolocation-api.herokuapp.com
 
 #### Postman published collection
   * <https://documenter.getpostman.com/view/1937580/UVeJM6Cs>
